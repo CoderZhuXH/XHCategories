@@ -14,6 +14,25 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTD-Fz-nbg">
+                    <rect key="frame" x="0.0" y="309" width="375" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="uPi-xM-sMZ"/>
+                    </constraints>
+                    <string key="text">导入 XHCategories.h
+具体用法请查看对应头文件</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JTD-Fz-nbg" secondAttribute="trailing" id="1B0-Hj-RQh"/>
+                <constraint firstItem="JTD-Fz-nbg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="j5y-fh-Ucg"/>
+                <constraint firstItem="JTD-Fz-nbg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uN4-fx-bdx"/>
+                <constraint firstItem="JTD-Fz-nbg" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="w3B-1c-oo0"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <point key="canvasLocation" x="151" y="341"/>
         </view>

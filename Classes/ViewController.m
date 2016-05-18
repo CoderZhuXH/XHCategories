@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  XHCategoriesDemo
+//   XHCategorieExample
 //
 //  Created by xiaohui on 16/5/12.
 //  Copyright © 2016年 qiantou. All rights reserved.

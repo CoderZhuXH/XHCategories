@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "IQKeyboardManager.h"
+
 @interface AppDelegate ()
 
 @end
@@ -20,10 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    
-   [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
-    
-    
+
     self.window.rootViewController =  [[ViewController alloc] init];
     
     [self.window makeKeyAndVisible];
