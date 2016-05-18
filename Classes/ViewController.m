@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //导入  XHCategories.h
+    //导入 XHCategories.h
     //具体用法请查看对应头文件
 
 }
