@@ -9,9 +9,13 @@
 #import "NSString+XHAdd.h"
 #import <CommonCrypto/CommonDigest.h>
 
+static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+
 @implementation NSString (XHAdd)
 
-#pragma mark-32位MD5加密
+/**
+ *  32位MD5加密
+ */
 -(NSString *)md5{
     
     const char *cStr = [self UTF8String];
@@ -28,7 +32,9 @@
     return [result copy];
 }
 
-#pragma mark-SHA1加密
+/**
+ *  SHA1加密
+ */
 -(NSString *)sha1{
     
     const char *cStr = [self UTF8String];
@@ -45,7 +51,6 @@
     
     return [result copy];
 }
-
 
 -(CGFloat)xh_heightByfont:(UIFont *)font width:(CGFloat)width
 {

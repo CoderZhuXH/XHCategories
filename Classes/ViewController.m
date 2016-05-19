@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "XHCategories.h"
 
 @interface ViewController ()
 
@@ -21,6 +21,8 @@
     //导入 XHCategories.h
     //具体用法请查看对应头文件
 
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

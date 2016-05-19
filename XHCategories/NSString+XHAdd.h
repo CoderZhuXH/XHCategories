@@ -20,7 +20,6 @@
  */
 @property (nonatomic,copy,readonly) NSString *sha1;
 
-
 /**
  *  字符串算高度
  *

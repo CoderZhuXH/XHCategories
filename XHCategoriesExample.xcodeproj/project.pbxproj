@@ -12,6 +12,7 @@
 		4B1474CF1CE5CC1200F067A4 /* NSData+XHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1474CE1CE5CC1200F067A4 /* NSData+XHAdd.m */; };
 		4B1474D21CE5D26800F067A4 /* UIImage+XHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1474D11CE5D26800F067A4 /* UIImage+XHAdd.m */; };
 		4B1474D81CE5DA6C00F067A4 /* XHHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1474D71CE5DA6C00F067A4 /* XHHelper.m */; };
+		4B469EAF1CED5692008EB6AB /* UIColor+XHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B469EAE1CED5692008EB6AB /* UIColor+XHAdd.m */; };
 		4B9EAF001CE485F200C37229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EAEFF1CE485F200C37229 /* main.m */; };
 		4B9EAF031CE485F200C37229 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EAF021CE485F200C37229 /* AppDelegate.m */; };
 		4B9EAF051CE485F200C37229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9EAF041CE485F200C37229 /* Assets.xcassets */; };
@@ -32,6 +33,8 @@
 		4B1474D11CE5D26800F067A4 /* UIImage+XHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XHAdd.m"; sourceTree = "<group>"; };
 		4B1474D61CE5DA6C00F067A4 /* XHHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHHelper.h; sourceTree = "<group>"; };
 		4B1474D71CE5DA6C00F067A4 /* XHHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHHelper.m; sourceTree = "<group>"; };
+		4B469EAD1CED5692008EB6AB /* UIColor+XHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XHAdd.h"; sourceTree = "<group>"; };
+		4B469EAE1CED5692008EB6AB /* UIColor+XHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XHAdd.m"; sourceTree = "<group>"; };
 		4B9EAEFB1CE485F200C37229 /* XHCategoriesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHCategoriesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9EAEFF1CE485F200C37229 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B9EAF011CE485F200C37229 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				4B1474CE1CE5CC1200F067A4 /* NSData+XHAdd.m */,
 				4B1474D01CE5D26800F067A4 /* UIImage+XHAdd.h */,
 				4B1474D11CE5D26800F067A4 /* UIImage+XHAdd.m */,
+				4B469EAD1CED5692008EB6AB /* UIColor+XHAdd.h */,
+				4B469EAE1CED5692008EB6AB /* UIColor+XHAdd.m */,
 				4B1474D61CE5DA6C00F067A4 /* XHHelper.h */,
 				4B1474D71CE5DA6C00F067A4 /* XHHelper.m */,
 			);
@@ -207,6 +212,7 @@
 				4B1474D81CE5DA6C00F067A4 /* XHHelper.m in Sources */,
 				4B9EAF121CE4862300C37229 /* NSString+XHAdd.m in Sources */,
 				4B1474D21CE5D26800F067A4 /* UIImage+XHAdd.m in Sources */,
+				4B469EAF1CED5692008EB6AB /* UIColor+XHAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
