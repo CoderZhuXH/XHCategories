@@ -9,8 +9,6 @@
 #import "NSString+XHAdd.h"
 #import <CommonCrypto/CommonDigest.h>
 
-static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-
 @implementation NSString (XHAdd)
 
 /**

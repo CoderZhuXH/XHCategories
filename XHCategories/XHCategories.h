@@ -14,6 +14,7 @@
 #import "NSArray+XHAdd.h"
 #import "NSData+XHAdd.h"
 #import "UIImage+XHAdd.h"
+#import "UIColor+XHAdd.h"
 #import "XHHelper.h"
 
 #endif /* XHCategories_h */
