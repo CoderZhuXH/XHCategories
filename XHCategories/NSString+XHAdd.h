@@ -14,11 +14,11 @@
 /**
  *  32位MD5加密
  */
-@property (nonatomic,copy,readonly) NSString *md5;
+@property (nonatomic,copy,readonly) NSString *xh_md5;
 /**
  *  SHA1加密
  */
-@property (nonatomic,copy,readonly) NSString *sha1;
+@property (nonatomic,copy,readonly) NSString *xh_sha1;
 
 /**
  *  字符串算高度

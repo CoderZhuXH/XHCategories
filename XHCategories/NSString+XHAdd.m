@@ -14,7 +14,7 @@
 /**
  *  32位MD5加密
  */
--(NSString *)md5{
+-(NSString *)xh_md5{
     
     const char *cStr = [self UTF8String];
     unsigned char digest[CC_MD5_DIGEST_LENGTH];
@@ -33,7 +33,7 @@
 /**
  *  SHA1加密
  */
--(NSString *)sha1{
+-(NSString *)xh_sha1{
     
     const char *cStr = [self UTF8String];
     NSData *data = [NSData dataWithBytes:cStr length:self.length];
