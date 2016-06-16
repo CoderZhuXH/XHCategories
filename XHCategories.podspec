@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "XHCategories"
-  s.version      = "1.2"
+  s.version      = "1.2.1"
   s.summary      = "方便实用的类扩展"
   s.homepage     = "https://github.com/CoderZhuXH/XHCategories"
   s.license      = { :type => "MIT", :file => "LICENSE" }
